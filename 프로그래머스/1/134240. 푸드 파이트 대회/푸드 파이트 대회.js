@@ -6,10 +6,6 @@ function solution(food) {
     let result = '';
 
     for (let i = 0; i < calculateFood.length; i++) {
-        if (calculateFood[i] === 0) {
-            continue;
-        }
-        
         for (let j = 0; j < calculateFood[i] / 2; j++) {
             result += i;
         }
